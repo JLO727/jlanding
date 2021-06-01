@@ -93,16 +93,19 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={pic03} alt="Jim_Lopez" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            I've worked in the information technology field for 16 years now. My
+            journey started when I was sent to Network Systems training while
+            service in the Marine Corps. Since, I've built upon that foundation
+            through a variety of professional experience. I stubled upon web
+            development in 2016 and I've spent the last five years slowly
+            cutting my teeth with simple programing languages and concepts. In
+            2020, I decided that I wanted to dive in to Development head long.
+            I've made programming and application development the sole focus in
+            my professional life and I'm very excited to see how many awesome
+            things I can dream up and build. -- I'm availble to work.
           </p>
           {close}
         </article>
@@ -115,7 +118,11 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form
+            method="post"
+            data-email="jim@pro-tecit.com"
+            action="https://script.google.com/macros/s/AKfycbzdiE9DkzsgVbym0MIFtYWV5othL3K8h4tKGQUQ2pD7biXNlFPZcNEW0Hje_-fvN4RuyA/exec"
+          >
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -139,28 +146,20 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
+              <a href="https://twitter.com/jlo727" className="icon fa-twitter">
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a
+                href="https://www.instagram.com/jlo0727/"
+                className="icon fa-instagram"
+              >
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
+              <a href="https://github.com/jlo727" className="icon fa-github">
                 <span className="label">GitHub</span>
               </a>
             </li>
