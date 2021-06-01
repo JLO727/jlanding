@@ -105,7 +105,7 @@ class Main extends React.Component {
             2020, I decided that I wanted to dive in to Development head long.
             I've made programming and application development the sole focus in
             my professional life and I'm very excited to see how many awesome
-            things I can dream up and build.
+            things I can dream up and build. -- I'm availble to work.
           </p>
           {close}
         </article>
