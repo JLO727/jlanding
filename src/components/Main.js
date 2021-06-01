@@ -28,7 +28,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Skills</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -62,7 +62,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Portfolio</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -98,10 +98,10 @@ class Main extends React.Component {
           <p>
             I've worked in the information technology field for 16 years now. My
             journey started when I was sent to Network Systems training while
-            service in the Marine Corps. Since, I've built upon that foundation
-            through a variety of professional experience. I stubled upon web
+            serving in the Marine Corps. Since, I've built upon that foundation
+            through a variety of professional experience. I stubled into web
             development in 2016 and I've spent the last five years slowly
-            cutting my teeth with simple programing languages and concepts. In
+            cutting my teeth picking up programing languages and concepts. In
             2020, I decided that I wanted to dive in to Development head long.
             I've made programming and application development the sole focus in
             my professional life and I'm very excited to see how many awesome
