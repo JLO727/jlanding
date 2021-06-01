@@ -8,19 +8,17 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Jim Lopez</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+          Developing web applications across the full stack.
           <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          Making Magik day after day
         </p>
       </div>
     </div>
     <nav>
       <ul>
-        <li>
+        {/* <li>
           <button
             onClick={() => {
               props.onOpenArticle('intro')
@@ -28,8 +26,8 @@ const Header = props => (
           >
             Intro
           </button>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <button
             onClick={() => {
               props.onOpenArticle('work')
@@ -37,7 +35,7 @@ const Header = props => (
           >
             Work
           </button>
-        </li>
+        </li> */}
         <li>
           <button
             onClick={() => {
