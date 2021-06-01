@@ -121,6 +121,7 @@ class Main extends React.Component {
           <form
             method="post"
             data-email="jim@pro-tecit.com"
+            // Currently redirecting to succes message, Impliment toast and redir to home!
             action="https://script.google.com/macros/s/AKfycbzdiE9DkzsgVbym0MIFtYWV5othL3K8h4tKGQUQ2pD7biXNlFPZcNEW0Hje_-fvN4RuyA/exec"
           >
             <div className="field half first">
