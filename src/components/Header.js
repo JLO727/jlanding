@@ -10,7 +10,7 @@ const Header = props => (
       <div className="inner">
         <h1>Jim Lopez</h1>
         <p>
-          Developing web applications across the full stack.
+          Making connections from stack to shining stack.
           <br />
           Making Magik day after day
         </p>
