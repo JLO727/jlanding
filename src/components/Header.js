@@ -2,10 +2,11 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 const Header = props => (
-  //Figure this one out asap, git rid of diamond
+  //TODO: Upgrade Font awesome or put custom logo
+
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span className="icon fa-bug"></span>
     </div>
     <div className="content">
       <div className="inner">
@@ -19,26 +20,7 @@ const Header = props => (
     </div>
     <nav>
       <ul>
-        {/*
-        // working links needed + resume download
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('intro')
-            }}
-          >
-            Intro
-          </button>
-        </li> */}
-        {/* <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('work')
-            }}
-          >
-            Work
-          </button>
-        </li> */}
+        {/* working links needed + resume download */}
         <li>
           <button
             onClick={() => {
@@ -48,6 +30,25 @@ const Header = props => (
             About
           </button>
         </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('intro')
+            }}
+          >
+            Tech
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('work')
+            }}
+          >
+            Work
+          </button>
+        </li>
+
         <li>
           <button
             onClick={() => {

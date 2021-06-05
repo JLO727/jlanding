@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic03 from '../images/jim-lopez-about.jpg'
 
 class Main extends React.Component {
   render() {
@@ -14,7 +14,6 @@ class Main extends React.Component {
         }}
       ></div>
     )
-
     return (
       <div
         ref={this.props.setWrapperRef}
@@ -28,11 +27,146 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Skills</h2>
-          <span className="image main">
+          <h2 className="major">What I use</h2>
+          {/* <span className="image main">
             <img src={pic01} alt="" />
-          </span>
-          <p>
+          </span> */}
+          {/* TODO: Break this out into a component */}
+          {/* TODO: USE THIS:    https://www.iconfinder.com/search/?q=html5 */}
+          <div className="skill-row-1">
+            <img
+              src={
+                'https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+            <img
+              src={
+                'https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+            <img
+              src={
+                'https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+            <img
+              src={
+                '	https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+            <img
+              src={
+                'https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+            <img
+              src={
+                '	https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+          </div>
+          <div id="skill-row-two">
+            <img
+              src={
+                'https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+            <img
+              src={
+                'https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+
+            <img
+              src={
+                'https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+            <img
+              src={
+                'https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+            <img
+              src={
+                'https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+            <img
+              src={
+                'https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+          </div>
+          <div id="skill-row-two">
+            <img
+              src={
+                'https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+            <img
+              src={
+                'https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+            <img
+              src={
+                'https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+            <img
+              src={
+                'https://img.shields.io/badge/Tails%20-56347C?&style=for-the-badge&logo=tails&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+            <img
+              src={
+                'https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+            <img
+              src={
+                'https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white'
+              }
+              alt=""
+              style={{ padding: '5px' }}
+            />
+          </div>
+          {/* <p>
             Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
             aliquam facilisis ante interdum congue. Integer mollis, nisl amet
             convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
@@ -51,7 +185,7 @@ class Main extends React.Component {
             malesuada fames ac turpis egestas. In non lorem sit amet elit
             placerat maximus. Pellentesque aliquam maximus risus, vel sed
             vehicula.
-          </p>
+          </p> */}
           {close}
         </article>
 
@@ -63,16 +197,11 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Portfolio</h2>
-          <span className="image main">
+          {/* <span className="image main">
             <img src={pic02} alt="" />
-          </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
+          </span> */}
+          <p>Deployment Imminent ...</p>
+          {/* <p>
             Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
             libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
             Pellentesque condimentum sem. In efficitur ligula tate urna.
@@ -80,7 +209,7 @@ class Main extends React.Component {
             Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
             libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
             tempus.
-          </p>
+          </p> */}
           {close}
         </article>
 
@@ -122,7 +251,10 @@ class Main extends React.Component {
             method="post"
             data-email="jim@pro-tecit.com"
             // Currently redirecting to succes message, Impliment toast and redir to home!
-            action="https://script.google.com/macros/s/AKfycbzdiE9DkzsgVbym0MIFtYWV5othL3K8h4tKGQUQ2pD7biXNlFPZcNEW0Hje_-fvN4RuyA/exec"
+            action={() =>
+              (window.top.location =
+                'https://script.google.com/macros/s/AKfycbzdiE9DkzsgVbym0MIFtYWV5othL3K8h4tKGQUQ2pD7biXNlFPZcNEW0Hje_-fvN4RuyA/exec')
+            }
           >
             <div className="field half first">
               <label htmlFor="name">Name</label>
@@ -147,16 +279,8 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a href="https://twitter.com/jlo727" className="icon fa-twitter">
+              <a href="https://twitter.com/jlo_727" className="icon fa-twitter">
                 <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/jlo0727/"
-                className="icon fa-instagram"
-              >
-                <span className="label">Instagram</span>
               </a>
             </li>
             <li>
